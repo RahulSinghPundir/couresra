@@ -7,7 +7,7 @@ library(corrplot)
 set.seed(1234)
 
 # load the data
-traincsv <- read.csv("https://raw.githubusercontent.com/b-zhang93/Practical-Machine-Learning-Project/master/data/pml-training.csv")
+traincsv <- read.csv("https://github.com/RahulSinghPundir/couresra/blob/main/pml-training.csv")
 testcsv <- read.csv("https://github.com/b-zhang93/Practical-Machine-Learning-Project/blob/master/data/pml-testing.csv")
 
 # cleaning the data
